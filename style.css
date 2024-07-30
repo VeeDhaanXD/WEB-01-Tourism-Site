@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.container { 
+    
+    min-height: 100vh;
+    background-image:url(pexels-rpnickson-2661176.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 0%;   
+}
+
+.logo{ 
+    width: 200px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    width:100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li {
+    display : inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    display:flex;
+    align-items: center;
+    padding: 10px 20px;
+    border:0;
+    outline:0;
+    border-radius: 25px;
+    background: rgb(248, 146, 163);
+    color:#fff;
+    font-weight:500;
+    cursor: pointer;
+}
+
+.btn img {
+    width:20px;
+    margin-right: 10px;
+}
+
+.content{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 620px;
+}
+
+.content h1{
+    font-size:70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 5px;
+
+}
+
+.content form{
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.content form input{
+    border:0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 16px;
+    border-radius: 15px;
+    padding: 10px;
+   
+}
+
+
+#k2{
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 30px;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    cursor: pointer;
+}    
+
+@keyframes slideRight {
+    from{transform:translateY(200%)}
+}
+
+#mh{
+    max-width: 100px;
+    margin-right: 20px ;
+    height: 100px;
+    border-radius: 30px;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+@keyframes slideRight {
+    from{transform:translateY(200%)}
+}
+
+#rj{
+    max-width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 30px;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+@keyframes slideRight{
+    from{transform:translateY(200%)}
+    
+}
+
+#jk{
+    max-width: 100px;
+    height:100px;
+    border-radius: 30px;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+@keyframes slideRight{
+    from{transform:translateY(200%)}
+    
+}
+
+#otr{
+    max-width: 100px;
+    height:100px;
+    border-radius: 30px;
+    padding-left: 20px;
+    animation-name: slideRight;
+    animation-duration: 2s;
+    cursor: pointer;
+
+}
+
+@keyframes slideRight{
+    from{transform:translateY(200%)}
+    
+}
+
